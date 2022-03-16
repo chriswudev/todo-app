@@ -4,13 +4,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Install Project
 
-### `git clone https://github.com/chriswudev/todo-app.git`
-### `cd todo-app`
-### `npm install`
+```
+git clone https://github.com/chriswudev/todo-app.git
+cd todo-app
+npm install
+```
 
 ## Run Project
 
-### `npm start`
+```
+npm start
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
