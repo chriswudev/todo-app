@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import { StyledEngineProvider } from '@mui/material/styles';
+import ToggleColorMode from 'contexts/ColorModeContext';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <StyledEngineProvider injectFirst>
+      <ToggleColorMode>
+        <App />
+      </ToggleColorMode>
+    </StyledEngineProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
